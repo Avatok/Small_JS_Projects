@@ -18,19 +18,19 @@ function berechnen(){
     alert("Ihr BMI wer liegt bei: " + Ergebnis);
     document.BMI.BMI.value = Ergebnis;
 
-    if(Ergebnis<19){
+    if(Ergebnis<=19){
         alert("Sie liegen in der Kategorie: Untergewicht");
         document.BMI.Kategorie.value = "Untergewicht";
     }
-    else if(Ergebnis<25){
+    else if(Ergebnis<=25){
         alert("Sie liegen in der Kategorie: Normalgewicht");
         document.BMI.Kategorie.value = "Normalgewicht";
     }
-    else if(Ergebnis<31){
+    else if(Ergebnis<=31){
         alert("Sie liegen in der Kategorie: Übergewicht");
         document.BMI.Kategorie.value = "Übergewicht";
     }
-    else if(Ergebnis<40){
+    else if(Ergebnis<=40){
         alert("Sie liegen in der Kategorie: Fettleibigkeit");
         document.BMI.Kategorie.value = "Fettleibigkeit";
     }
